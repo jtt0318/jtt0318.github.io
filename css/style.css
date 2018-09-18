@@ -41,17 +41,16 @@ body,html{
 .zhong{
     width: 30px;
     height: 30px;
-    background: #000;
-    color: #fff;
-    border-radius: 50%;
-    line-height: 30px;
+    background: url(images/pause.png) no-repeat;
+    background-position: center;
+    background-size: 15px;
 }
 .ying{
     width: 30px;
     height: 30px;
-    color: #000;
-    border-radius: 50%;
-    line-height: 30px;
+    background: url(images/playing.gif) no-repeat;
+    background-position: center;
+    background-size: 15px;
 }
 .swich_language{
     background: rgba(0,0,0,0.1);
