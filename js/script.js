@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', bind)
-function bing(){
+function bind(){
 var music=document.getElementById("bgMusic");
  music.play();
 }
