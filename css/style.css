@@ -16,11 +16,11 @@ p{
 body,html{
     height: 100%;
     margin: 0;
+    background: #87b0a5
 }
 .page_first{
     height: 100%;
     text-align: center;
-    background: #87b0a5;
 }
 .title{
     display: flex;
@@ -61,6 +61,12 @@ body,html{
     position: relative;
     display: flex;
 }
+.qrcode_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
 .weixin_icon{
     width: 45px;
     height: 45px;
@@ -76,6 +82,7 @@ body,html{
     background-repeat: no-repeat;
     background-size: 45px;
     display: block;
+    margin: 0 50px;
 }
 .qq_icon{
     width: 45px;
