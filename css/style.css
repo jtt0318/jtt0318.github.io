@@ -64,7 +64,7 @@ body,html{
 .weixin_icon{
     width: 45px;
     height: 45px;
-    background: url(css/images/weixin.png);
+    background: url(images/weixin.png);
     background-repeat: no-repeat;
     background-size: 45px;
     display: block;
@@ -72,7 +72,7 @@ body,html{
 .github_icon{
     width: 45px;
     height: 45px;
-    background: url(css/images/github.png);
+    background: url(images/github.png);
     background-repeat: no-repeat;
     background-size: 45px;
     display: block;
@@ -80,7 +80,7 @@ body,html{
 .qq_icon{
     width: 45px;
     height: 45px;
-    background: url(css/images/qq.png);
+    background: url(images/qq.png);
     background-repeat: no-repeat;
     background-size: 45px;
     display: block;
