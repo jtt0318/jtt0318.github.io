@@ -66,8 +66,9 @@ body,html{
 .qrcode_div{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-
+    bottom: 10%;
+    position: absolute;
+    width: 100%;
 }
 .weixin_icon{
     width: 45px;
