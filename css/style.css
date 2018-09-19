@@ -38,21 +38,26 @@ body,html{
 .down_title{
     color: #fff;
 }
-.zhong{
+.button{
     width: 20px;
     height: 20px;
-    background: url(images/pause.png) no-repeat;
     background-position: center;
     background-size: 10px;
 }
-.ying{
+.play{
+    background: url(images/pause.png) no-repeat center/10px;
+}
+.pause{
+    background: url(images/play.png) no-repeat center/10px;
+}
+.status{
     width: 20px;
     height: 20px;
     background: url(images/playing.jpg) no-repeat;
     background-position: center;
     background-size: 10px;
 }
-.swich_language{
+.musicPlayer{
     background: rgba(0,0,0,0.1);
     height: 20px;
     position: relative;
