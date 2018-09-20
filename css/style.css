@@ -53,7 +53,7 @@ body,html{
 .status{
     width: 20px;
     height: 20px;
-    background: url(images/playing.jpg) no-repeat;
+    background: url(images/palying.gif) no-repeat;
     background-position: center;
     background-size: 10px;
 }
@@ -66,7 +66,7 @@ body,html{
 .qrcode_div{
     display: flex;
     justify-content: center;
-    bottom: 10%;
+    bottom: 5%;
     position: absolute;
     width: 100%;
 }
@@ -78,14 +78,19 @@ body,html{
     background-size: 45px;
     display: block;
 }
+.github{
+    position: relative;
+}
 .github_icon{
+    position: absolute;
     width: 45px;
     height: 45px;
     background: url(images/github.png);
     background-repeat: no-repeat;
     background-size: 45px;
     display: block;
-    margin: 0 50px;
+    bottom: 0;
+    left: -18px;
 }
 .qq_icon{
     width: 45px;
@@ -94,4 +99,30 @@ body,html{
     background-repeat: no-repeat;
     background-size: 45px;
     display: block;
+}
+.weixin_img{
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+}
+.weixin_icon:hover + .weixin_img{
+    opacity: 1;
+}
+.qq_icon:hover + .qq_img{
+    opacity: 1;
+}
+.qq_img{
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+}
+.weixin{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.qq{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
 }
