@@ -126,3 +126,27 @@ body,html{
     flex-direction: column-reverse;
     align-items: center;
 }
+#right{
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    opacity: 0;
+    cursor: pointer;
+    right: 2%;
+    top: 50%;
+}
+#left{
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    opacity: 0;
+    cursor: pointer;
+    left: 2%;
+    top: 50%;
+}
+#left:hover{
+    opacity: 1;
+}
+#right:hover{
+    opacity: 1;
+}
