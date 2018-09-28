@@ -37,6 +37,7 @@ body,html{
 }
 .down_title{
     color: #fff;
+    font-size: 18px;
 }
 .button{
     width: 20px;
@@ -152,4 +153,36 @@ body,html{
 }
 .page_two{
     display: none;
+}
+.content{
+    display: block;
+    float: right;
+    margin: 50px 0 60px;
+    padding: 0 3% 0 4%;
+    border: solid 2px #fff;
+    border-width: 0 0 0 1px;
+    width: 60%;
+}
+h5{
+    color: #fff;
+    font-weight: bolder;
+    line-height: 28px;
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+.content p{
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    border: solid 1px #fff;
+    border-width: 0 0 1px;
+    line-height: 22px;
+    text-align: left;
+}
+.pic{
+    position: absolute;
+    left: 4%;
+    display: flex;
+    flex-direction: column;
 }
