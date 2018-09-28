@@ -150,3 +150,6 @@ body,html{
 #right:hover{
     opacity: 1;
 }
+.page_two{
+    display: none;
+}
