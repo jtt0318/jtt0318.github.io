@@ -179,6 +179,7 @@ h5{
     border-width: 0 0 1px;
     line-height: 22px;
     text-align: left;
+    max-width: 90%;
 }
 .pic{
     position: absolute;
