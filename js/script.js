@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', bindEvent)
 
-var button= document.querySelector('.button');;
+var button= document.querySelector('.button');
 function bindEvent() {
     button.addEventListener('click', function() {
         var isPlaying=button.classList.contains("play")==true;
