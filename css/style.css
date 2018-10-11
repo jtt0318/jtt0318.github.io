@@ -187,3 +187,6 @@ h5{
     display: flex;
     flex-direction: column;
 }
+.page_three{
+    display: none;
+}
