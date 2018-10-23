@@ -224,4 +224,8 @@ h5{
 .demo_box_title{
     margin: 10px;
 }
-
+.md-trigger{
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+}
